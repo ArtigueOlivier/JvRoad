@@ -1,0 +1,252 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="doc.css">
+</head>
+<body leftmargin="5" marginwidth="5" topmargin="5" marginheight="5">
+
+<table border="0" width="100%" class="bordure" cellspacing="0" cellpadding="1">
+<tr><td>
+<table border="0" width="100%" class="textSubTitleCenter" cellspacing="0" cellpadding="0">
+<tr><td class="textTitle">JvRoad</td>
+<td class="textSubTitleRight">Manuel de Format</tr>
+<tr><td colspan="2"><br>Les &eacute;l&eacute;ments d'un road book: Les cases</td></tr>
+</table>
+</td></tr></table>
+<br>
+<center><img src="images/case.jpg" border="0"></center><br><br>
+<div class="textSubTitle">&nbsp;Les &eacute;l&eacute;ments d'une case</div>
+<div class="textJustify">
+La distance totale (&agrave; droite) et le num&eacute;ro de la case sont des &eacute;l&eacute;ments qui sont calcul&eacute;s automatiquement par le logiciel. Si la saisie de la distance de gauche, le choix des petits dessins en dessous de celle-ci et le texte de la case ne pose pas de probl&egrave;me particulier au niveau de la d&eacute;finition (les boite de dialogues sont tr&egrave;s simple), ce n'est pas le cas du dessin.<br>
+Dans la suite de ce document, nous allons voir les diff&eacute;rents outils dont nous disposons pour d&eacute;finir un dessin.<br><br>
+</div>
+<div class="textSubTitle">&nbsp;Les &eacute;l&eacute;ments d'un dessin d'une case</div>
+<div class="textJustify">
+Chaque dessin n'est pas une image mais un ensemble d'&eacute;l&eacute;ments (traits, cercles, rectangles, texte,...) vectoriels, c'est &agrave; dire qu'on peut les r&eacute;duire ou les grossir presque &agrave; l'infini sans qu'ils soient d&eacute;form&eacute;s. Cela permet de r&eacute;duire au maximum l'&eacute;cart entre l'aper&ccedil;u &agrave; l'&eacute;cran et le r&eacute;sultat obtenu &agrave; l'impression.<br>
+Chaque dessin d'une case est le r&eacute;sultat de la superposition de cinq cartes. Les cartes sont des assistants &agrave; la r&eacute;alisation de dessin. Ainsi, la carte de ci-dessous permet de dessiner un carrefour tr&egrave;s rapidement. Il suffit de choisir son type de traits (route, route nationale, chemin ou sentier) et de le placer(autrement dit cliquer) dans le petit carr&eacute; correspondant pour qu'il remplace le trait en gris. Lors de l'impression, les traits en gris ne seront pas imprim&eacute;s.<br><br>
+<center>
+<img src="images/carrefour.jpg" border="1"><br>
+La carte d'assistance de type Carrefour<br><br>
+</center>
+Pour chaque dessin d'une case, on dispose de cinq cartes qui seront superpos&eacute;es en transparence lors de l'impression. Les quatre premi&egrave;res cartes peuvent &ecirc;tre du type:<br> 
+<a href="#Carre"><li>Carrefour</a>
+<a href="#Rondp"><li>Rond point</a>
+<a href="#Grill"><li>Grille</a>
+<a href="#Vecto"><li>Vectorielle</a>
+<a href="#Clipa"><li>Clipart</a>
+<a href="#Bouss"><li>Cap</a>
+<a href="#Montr"><li>Montre</a>
+<a href="#Arcsp"><li>Arcs et plans</a>
+<a href="#Texte"><li>Texte</a>
+<a href="#Borne"><li>Borne</a>
+<a href="#Mille"><li>Mille pattes</a>
+<a href="#Image"><li>Images Gif ou Jpeg</a>
+<a href="#Linet"><li>Lignes de texte</a>
+<a href="#Ponts"><li>Ponts</a>
+<a href="#Villes"><li>Villes</a>
+</div>
+<div class="textJustify">
+La derni&egrave;re carte est du type <a href="#Objet">Objets</a>. Dans cette carte, la zone de dessin est d&eacute;compos&eacute;e en une grille de 10 cases par 10 cases dans lesquelles on peut placer des objets comme une maison, un hopital, ...<br> 
+Lorsque plusieurs cartes sont utilis&eacute;es pour r&eacute;aliser le dessin, les cartes qui ne sont pas en cours d'&eacute;dition sont affich&eacute;es en rouge au lieu d'&ecirc;tre en noir. A l'impression toutes les cartes seront dessin&eacute;es en noir.<br><br> 
+</div>
+<br>
+<div class="textSubTitle">Les diff&eacute;rents types de carte</div>
+<div class="textJustify">
+<b><a name="Carre">Carrefour</a></b><br>
+Cette carte permet de dessiner un carrefour. Les interactions possibles sont:
+<li>Click gauche dans un carr&eacute; pour placer.
+<li>Click droit dans un carr&eacute; pour effacer.<br>
+<center><img src="images/carrefour.jpg" border="1"><br>
+La carte d'assistance de type Carrefour</center>
+<br><br>
+
+<b><a name="Rondp">Rond Point</a></b><br>
+Cette carte permet de dessiner un rond point. Les interactions possibles sont:
+<li>Click gauche dans un carr&eacute; pour placer.
+<li>Click droit dans un carr&eacute; pour effacer.<br>
+<center><img src="images/rondp.jpg" border="1"><br>
+La carte d'assistance de type Rond Point</center>
+<br><br>
+
+<b><a name="Grill">Grille</a></b><br>
+Cette carte permet de dessiner selon une grille. Les interactions possibles sont:
+<li>Click gauche sur un trait pour placer.
+<li>Click droit sur un trait pour effacer.<br>
+<center><img src="images/grille.jpg" border="1"><br>
+La carte d'assistance de type Grille</center>
+<br><br>
+
+<b><a name="Vecto">Vectorielle</a></b><br>
+Cette carte permet de dessiner des droites ou des courbes selon une grille. Cette carte poss&egrave;de plusieurs modes de fonctionnement qui sotn s&eacute;lectionnable dans la palette de gauche.<br>
+En mode insertion courbe ou droite:
+<li>Enfoncement du bouton gauche pour indiquer le premier point.
+<li>Rel&acirc;chement du bouton de gauche apr&egrave;s d&eacute;placement de la souris pour indiquer le deuxi&egrave;me point.<br>
+En mode s&eacute;lection:
+<li>Click gauche sur une extr&eacute;mit&eacute; pour s&eacute;lectionner une droite ou une courbe.<br>
+En mode D&eacute;placement:
+<li>Enfoncement du bouton gauche pour indiquer le point &agrave; d&eacute;placer.
+<li>Rel&acirc;chement du bouton de gauche apr&egrave;s d&eacute;placement de la souris pour indiquer la position du nouveau point.<br>
+En mode suppression:
+<li>Click gauche sur une extr&eacute;mit&eacute; pour supprimer une droite ou une courbe.<br>
+Le trait bleu indique la droite ou la courbe en cours d'&eacute;dition.<br>
+<center><img src="images/vector.jpg" border="1"><br>
+La carte d'assistance de type Vectorielle</center>
+<br><br>
+
+<b><a name="Clipa">Clipart</a></b><br>
+Cette carte permet d'afficher un clipart. Les images possibles sont:
+<li>Boussole.
+<li>D&eacute;part.
+<li>Arriv&eacute;e.
+<li>Pause repas.
+<li>Pause.
+<li>C.P. (contr&ocirc;le de passage).<br>
+<center><img src="images/clipart.jpg" border="1"><br>
+La carte d'assistance de type Clipart</center>
+<br><br>
+
+<b><a name="Bouss">Cap</a></b><br>
+Cette carte permet d'indiquer un cap &agrave; suivre. Les valeurs possibles sont comprises entre 0 et 345 avec un pas de 15 degr&eacute;.<br>
+<center><img src="images/cap.jpg" border="1"><br>
+La carte d'assistance de type Cap</center>
+<br><br>
+
+<b><a name="Montr">Montre</a></b><br>
+Cette carte permet d'indiquer une direction &agrave; suivre. Les valeurs possibles sont comprises entre 1 et 12 avec un pas de 1 heure.<br>
+<center><img src="images/montre.jpg" border="1"><br>
+La carte d'assistance de type Montre</center>
+<br><br>
+
+<b><a name="Texte">Texte</a></b><br>
+Cette carte permet d'&eacute;crire du texte. Les interactions possibles sont:
+<li>Click gauche sur la carte pour saisir le texte.<br>
+<center><img src="images/texte.jpg" border="1"><br>
+La carte d'assistance de type Texte</center>
+<br><br>
+
+<b><a name="Arcsp">Arcs & Plans</a></b><br>
+Cette carte permet de positionner des arcs et des diagonales dans une grille de 10 cases par 10 cases. Les interactions possibles sont:
+<li>Click gauche dans un carr&eacute; pour placer.
+<li>Click droit dans un carr&eacute; pour effacer.<br>
+<center><img src="images/arcs.jpg" border="1"><br>
+La carte d'assistance de type Arcs & Plans</center>
+<br><br>
+
+<b><a name="Borne">Bornes</a></b><br>
+Cette carte permet d'ajouter des &eacute;tiquettes pour indiquer le num&eacute;ro d'une route nationale, d'une route d&eacute;partementale ou d'une route communale. Elle peut &ecirc;tre utilis&eacute;e pour indiquer un chemin de type GR. Les interactions possibles sont:
+<li>Click gauche dans un carr&eacute; pour placer.
+<li>Click droit dans un carr&eacute; pour effacer.<br>
+<center><img src="images/borne.jpg" border="1"><br>
+La carte d'assistance de type Bornes</center>
+<br><br>
+
+<b><a name="Mille">Mille pattes</a></b><br>
+Cette carte permet de dessiner un mille pattes. Les interactions possibles sont:
+<li>Click gauche dans un carr&eacute; pour placer.
+<li>Click droit dans un carr&eacute; pour effacer.<br>
+<center><img src="images/mille.jpg" border="1"><br>
+La carte d'assistance de type Mille pattes</center>
+<br><br>
+
+
+<b><a name="Image">Image</a></b><br>
+Cette carte permet d'afficher dans une case une image au format GIF ou JPEG.<br>
+<center><img src="images/image.jpg" border="1"><br>
+La carte d'assistance de type Image</center>
+<br><br>
+
+<b><a name="Linet">Lignes de texte</a></b><br>
+Cette carte permet d'&eacute;crire du texte. Chaque ligne de texte &agrave; sa propre zone d'affichage. Les interactions possibles sont:
+<li>Click gauche sur l'une des zone de la carte pour saisir le texte correspondant &agrave; la zone.<br>
+<center><img src="images/linetxt.jpg" border="1"><br>
+La carte d'assistance de type Lignes de texte</center>
+<br><br>
+
+<b><a name="Ponts">Ponts</a></b><br>
+Cette carte permet de placer des ponts. Les interactions possibles sont:
+<li>Click gauche pour placer un pont.
+<li>Click droit pour effacer un pont.<br>
+<center><img src="images/ponts.gif" border="1"><br>
+La carte d'assistance de type Ponts</center>
+<br><br>
+
+<b><a name="Villes">Villes</a></b><br>
+Cette carte permet de placer des panneaux d'entr&eacute;e ou de sortie de ville. Les interactions possibles sont:
+<li>Click gauche pour editer le nom de la ville.
+<li>Click un des bouton sur la gauche pour indiquer s'il s'agit d'une entr&eacute;e ou d'une sortie.<br>
+<center><img src="images/villes.gif" border="1"><br>
+La carte d'assistance de type villes</center>
+<br><br>
+
+<b><a name="Objet">Objets</a></b><br>
+Cette carte permet d'ajouter des objets dans une grille de 10 cases par 10 cases. Les objets disponibles sont:<br>
+<img src="images/efface.gif" border="0">&nbsp;Effacer<br>
+<img src="images/objhouse.gif" border="0">&nbsp;Maison<br>
+<img src="images/objhousg.gif" border="0">&nbsp;Grande maison<br>
+<img src="images/objcroix.gif" border="0">&nbsp;Croix<br>
+<img src="images/objchap.gif" border="0">&nbsp;Chapelle<br>
+<img src="images/objeglis.gif" border="0">&nbsp;Eglise<br>
+<img src="images/objmosq.gif" border="0">&nbsp;Mosqu&eacute;e<br>
+<img src="images/objhopit.gif" border="0">&nbsp;Hopital<br>
+<img src="images/objstat.gif" border="0">&nbsp;Station service<br>
+<img src="images/objpark.gif" border="0">&nbsp;Parking<br>
+<img src="images/objcp.gif" border="0">&nbsp;Contrôle de passage<br>
+<img src="images/objstop.gif" border="0">&nbsp;Panneau Stop<br>
+<img src="images/objceder.gif" border="0">&nbsp;Panneau Ceder le passage<br>
+<img src="images/objinter.gif" border="0">&nbsp;Panneau Sens interdit<br>
+<img src="images/objfeux.gif" border="0">&nbsp;Feux de circulation<br>
+<img src="images/objarbre.gif" border="0">&nbsp;Arbre<br>
+<img src="images/objsapin.gif" border="0">&nbsp;Sapin<br>
+<img src="images/objvrail.gif" border="0">&nbsp;Rail Nord Sud<br>
+<img src="images/objhrail.gif" border="0">&nbsp;Rail Est Ouest<br>
+<img src="images/objvrive.gif" border="0">&nbsp;Rivi&egrave;re Nord sud<br>
+<img src="images/objhrive.gif" border="0">&nbsp;Rivi&egrave;re Est Ouest<br>
+<img src="images/objcercl.gif" border="0">&nbsp;Cercle<br>
+<img src="images/objrond.gif" border="0">&nbsp;Rond<br>
+<img src="images/objhbarr.gif" border="0">&nbsp;Barri&egrave;re horizontale<br>
+<img src="images/objvbarr.gif" border="0">&nbsp;Barri&egrave;re verticale<br>
+Les interactions possibles sont:
+<li>Click gauche dans un carr&eacute; pour placer.
+<li>Click droit dans un carr&eacute; pour effacer.<br>
+<center><img src="images/fmtsup4.jpg" border="1"><br>
+La carte d'assistance de type Objets</center>
+</div>
+<br>
+<div class="textSubTitle">Types de traits</div>
+<div class="textJustify">
+Les types de traits qui sont accessibles via le menu Carte ou via la palette de boutons accessible sur la gauche de la carte sont:<br>
+<b>Sentier ou hors piste</b><br>
+<img src="images/linesent.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; un sentier ou hors piste.<br>
+<img src="images/lsendst.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une destination sur un sentier ou hors piste.<br>
+<img src="images/lsendsti.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une destination inverse sur un sentier ou hors piste.<br>
+<img src="images/lsensrc.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une origine sur un sentier ou hors piste.<br>
+<img src="images/lsensrci.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une origine inverse sur un sentier ou hors piste.<br><br>
+<b>Chemin</b><br>
+<img src="images/linepath.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; un chemin.<br>
+<img src="images/linepdst.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une destination sur un chemin.<br>
+<img src="images/linepdsti.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une destination inverse sur un chemin.<br>
+<img src="images/linepsrc.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une origine sur un chemin.<br>
+<img src="images/linepsrci.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une origine inverse sur un chemin.<br><br>
+<b>Route</b><br>
+<img src="images/lineroad.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une route.<br>
+<img src="images/linerdst.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une destination sur une route.<br>
+<img src="images/linerdsti.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une destination inverse sur une route.<br>
+<img src="images/linersrc.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une origine sur une route.<br>
+<img src="images/linersrci.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une origine inverse sur une route.<br><br>
+<b>Route nationale</b><br>
+<img src="images/linenat.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une route nationale.<br>
+<img src="images/linendst.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une destination sur une route nationale.<br>
+<img src="images/linendsti.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une destination inverse sur une route nationale.<br>
+<img src="images/linensrc.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une origine sur une route nationale.<br>
+<img src="images/linensrci.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une origine inverse sur une route nationale.<br><br>
+<b>Route avec s&eacute;parateur central</b><br>
+<img src="images/dline.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une route avec s&eacute;parateur central.<br>
+<img src="images/dlindst.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une destination sur une route avec s&eacute;parateur central.<br>
+<img src="images/dlindsti.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une destination inverse sur une route avec s&eacute;parateur central.<br>
+<img src="images/dlinsrc.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une origine sur une route avec s&eacute;parateur central.<br>
+<img src="images/dlinsrci.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une origine inverse sur une route avec s&eacute;parateur central.<br><br>
+<b>Autres</b><br>
+<img src="images/linetrain.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une voie de chemin de fer.<br>
+<img src="images/lineriver.gif" border="0">&nbsp;&nbsp;Pour s&eacute;lectionner le trait correspondant &agrave; une rivi&egrave;re.<br>
+</div>
+</body>
+</html>
