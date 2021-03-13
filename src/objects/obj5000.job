@@ -1,0 +1,12 @@
+[Definition]
+Title=Cible
+Symetry=1
+
+[Draw]
+Count=6
+Action0=CERCLE;0;0;50;50;
+Action1=CERCLE;5;5;45;45;
+Action2=LINE;0;25;10;25;
+Action3=LINE;40;25;50;25;
+Action4=LINE;25;0;25;10;
+Action5=LINE;25;40;25;50;

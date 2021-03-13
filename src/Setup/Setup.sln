@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual J# Express 2005
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup.vdproj", "{E2178F09-0638-4CF7-8B81-8A24A528B0EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2178F09-0638-4CF7-8B81-8A24A528B0EB}.Debug|Default.ActiveCfg = Debug
+		{E2178F09-0638-4CF7-8B81-8A24A528B0EB}.Debug|Default.Build.0 = Debug
+		{E2178F09-0638-4CF7-8B81-8A24A528B0EB}.Release|Default.ActiveCfg = Release
+		{E2178F09-0638-4CF7-8B81-8A24A528B0EB}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?>
+<UpgradeLog>
+<Properties><Property Name="Solution" Value="Setup">
+</Property><Property Name="Solution File" Value="F:\java\eclipse\workspace\JvRoad\Setup\Setup.sln">
+</Property><Property Name="Date" Value="vendredi 21 avril 2006">
+</Property><Property Name="Time" Value="16:44">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Setup.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Setup.sln" Description="Converted">
+</Event></UpgradeLog>
