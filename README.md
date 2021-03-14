@@ -3,6 +3,8 @@ L'éditeur de roadbook
 
 Les sources ainsi que l'équivalent des CR-DOM de la version 1.34 (dernière complète) et de la version 1.5 (mise à jour de la 1.34) sont disponibles.
 
+La documentation est accessible dans le wiki de ce repository.
+
 Concernant les droits d'usage:
 * Vous êtes libres de les télécharger. 
 * Vous êtes libre de modifier les sources si vous les souhaitez. 
